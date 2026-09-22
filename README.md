@@ -5,6 +5,8 @@ A full-stack user profile management app.
 - `backend/` — ASP.NET Core Web API (.NET 10) exposing CRUD endpoints for user profiles (in-memory store).
 - `frontend/` — React + TypeScript (Vite) UI for listing, creating, editing, and deleting user profiles.
 
+For instructions on how to use the app once it's running (creating, editing, and deleting profiles), see the [User Manual](docs/USER-MANUAL.md).
+
 ## Run everything on one URL (recommended)
 
 Building/running the backend automatically builds the React app and serves it from the same origin — no CORS, one port.
