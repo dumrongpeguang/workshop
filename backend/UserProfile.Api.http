@@ -1,0 +1,19 @@
+@UserProfile.Api_HostAddress = http://localhost:5052
+
+GET {{UserProfile.Api_HostAddress}}/api/userprofiles
+Accept: application/json
+
+###
+
+POST {{UserProfile.Api_HostAddress}}/api/userprofiles
+Content-Type: application/json
+
+{
+  "firstName": "Grace",
+  "lastName": "Hopper",
+  "email": "grace.hopper@example.com",
+  "bio": "Computer scientist and United States Navy rear admiral.",
+  "avatarUrl": "https://i.pravatar.cc/150?u=grace.hopper@example.com"
+}
+
+###
